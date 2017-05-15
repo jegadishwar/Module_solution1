@@ -30,15 +30,15 @@
         
     }
 
-    output.pass { 
+    p.pass { 
     	color: green; border-color: green; 
     }
 
-    output.fail { 
+    p.fail { 
     	color: red; border-color: red; 
     }
 
-    output#b {
+    p#b {
     	font-style: italic;
     	font-size: 15px;
     }

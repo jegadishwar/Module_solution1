@@ -1,0 +1,5 @@
+Please down load into your machine and compile.
+
+angular.min.js file is not working when I uploaded into github.
+
+I am explaining this coz I can get grades if it work properly.
