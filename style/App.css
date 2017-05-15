@@ -1,0 +1,44 @@
+.container {
+      width: 800px;
+      margin: 0 auto;
+      font-family: Verdana, Helvetica, sans-serif;
+    }
+    
+    p.L{
+
+    	font-size: 40px;
+    	font-weight: bold;
+    }
+    input.pass { 
+    	border-color: black; 
+    }
+    input.pass { 
+    	border-color: green; 
+    }
+    
+    input.fail { 
+    	border-color: red; 
+    }
+    
+    input#box{
+         width: 100%;
+         padding: 12px 20px;
+         margin: 8px 0;
+         display: inline-block;
+         border-radius: 4px;
+         box-sizing: border-box;
+        
+    }
+
+    output.pass { 
+    	color: green; border-color: green; 
+    }
+
+    output.fail { 
+    	color: red; border-color: red; 
+    }
+
+    output#b {
+    	font-style: italic;
+    	font-size: 15px;
+    }

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="LunchCheck">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <title>Solution-1</title>
+  <link rel="stylesheet" type="text/css" href="style/App.css">
+</head>
+<body>
+  <div class="container" ng-controller="LunchCheckController">
+    <div class="row">
+      <div class="col-md-12">
+        <p class="L">Lunch Time</p>
+        <p>
+          <output id="b" ng-class="{pass: result, fail: !result}">{{resultString}}</output>
+        </p>
+        <p>
+          <input id="box" type="text"  placeholder="Enter your lunch items" ng-model="lunchItem" ng-class="{pass: result, fail: result == false}">
+          <button ng-click="checkItems();"  class="btn btn-default">Check if too much</button>
+        </p>        
+      </div>
+    </div>
+      </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+  <script src="script/app.js"></script>
+</body>
+</html>
